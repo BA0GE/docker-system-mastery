@@ -4,7 +4,7 @@ site_author: Docker System Mastery Project
 repo_url: https://github.com/USERNAME/docker-system-mastery
 repo_name: docker-system-mastery
 edit_uri: edit/main/
-docs_dir: .
+docs_dir: docs
 
 theme:
   name: material
@@ -44,7 +44,9 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - attr_list
-  - md_in_htmlnav:
+  - md_in_html
+
+nav:
   - 首页: index.md
   - 01. 核心哲学:
     - 01_Philosophy_and_Core/01_Introduction.md

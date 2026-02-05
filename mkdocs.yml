@@ -4,6 +4,7 @@ site_author: Docker System Mastery Project
 repo_url: https://github.com/USERNAME/docker-system-mastery
 repo_name: docker-system-mastery
 edit_uri: edit/main/
+docs_dir: .
 
 theme:
   name: material

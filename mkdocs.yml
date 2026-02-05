@@ -1,0 +1,66 @@
+site_name: Docker System Mastery
+site_description: 从原理到生产的全能 Docker 系统化教程
+site_author: Docker System Mastery Project
+repo_url: https://github.com/USERNAME/docker-system-mastery
+repo_name: docker-system-mastery
+edit_uri: edit/main/
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - toc.follow
+  palette:
+    - scheme: default
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
+
+nav:
+  - 首页: README.md
+  - 01. 核心哲学:
+    - 01_Philosophy_and_Core/01_Introduction.md
+  - 02. 基础与环境:
+    - 02_Foundation_and_Setup/02_Installation.md
+    - 02_Foundation_and_Setup/03_CLI_Basics.md
+  - 03. 生命周期:
+    - 03_Workflow_and_Lifecycle/04_Container_Life.md
+  - 04. 镜像工程:
+    - 04_Image_Engineering/05_Dockerfile.md
+  - 05. 架构深潜:
+    - 05_Architecture_Deep_Dive/06_Networking.md
+    - 05_Architecture_Deep_Dive/07_Storage.md
+  - 06. 编排协同:
+    - 06_Orchestration/08_Compose.md
+  - 07. 生产与排错:
+    - 07_Production_and_Debug/09_Optimization.md
+    - 07_Production_and_Debug/10_Troubleshooting.md
